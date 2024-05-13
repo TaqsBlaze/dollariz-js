@@ -1,4 +1,4 @@
-# dollariz-js
+# dollariz
 node package that helps convert cents into dollars specially when working in APIs
 
 ## How to install
@@ -7,10 +7,10 @@ node package that helps convert cents into dollars specially when working in API
 ## How to use
 
 ```
-const { dollariz } = require("dollariz");
+const dollars = require("dollariz");
 
 const cents = 15080;
-const dollars = dollariz(cents, decimal=2);
+const dollars = dollars. convertToDollars(cents, decimal=2);
 
 console.log(dollars);
 :150.80
