@@ -7,10 +7,10 @@ node package that helps convert cents into dollars specially when working in API
 ## How to use
 
 ```
-const dollars = require("dollariz");
+const dollar = require("dollariz");
 
 const cents = 15080;
-const dollars = dollars.convertToDollars(cents, decimal=2);
+const dollars = dollar.convertToDollars(cents, decimal=2);
 
 console.log(dollars);
 :150.80
